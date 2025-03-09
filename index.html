@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4231903150571503"
+     crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-4231903150571503">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9QT68Y0BD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y9QT68Y0BD');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informasi Seputar Cipta Coffee Menu Makanan dan Minumam Terbaik Se kota Batam">
+    <meta name="keywords" content="Cipta Coffee, Recipe Menu, Cefe Di Batam, Tempat Nongkrong di Batam">
+    <meta name="author" content="Cipta Coffee">
+    <title>
+
+
+     [Recipes Menu]</title>
+    <link rel="icon" href="https://logo.clearbit.com/anchorcafeandroastery.com" type="image/x-icon">
+    <style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #008a8a;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo a {
+    font-size: 2rem;
+    color: #008a8a;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 30px; /* Increased margin to add space between logo and menu */
+    animation: logoColorChange 4s infinite; /* Animation to change logo color */
+}
+
+@keyframes logoColorChange {
+    0% {
+        color: #008a8a;
+    }
+    25% {
+        color: #d9e7e7;
+    }
+    50% {
+        color: #008a8a;
+    }
+    75% {
+        color: #d9e7e7;
+    }
+    100% {
+        color: #008a8a;
+    }
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center menu items */
+    margin-top: 0;
+    padding: 0;
+}
+
+header ul li {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+header ul li:first-child {
+    margin-left: 0; /* Remove left margin from the first item */
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #008a8a;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('https://m.media-amazon.com/images/I/71OdwxE5erL._AC_UF894,1000_QL80_.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #008a8a;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85); /* Semi-transparent dark overlay */
+}
+
+.hero-content {
+    z-index: 1;
+    padding: 20px;
+    color: #d9e7e7;
+    max-width: 80%;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.cta-btn {
+    background-color: #008a8a;
+    color: #d9e7e7;
+    padding: 20px 35px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #D4600D;
+    transform: scale(1.05);
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto; /* Menambahkan scroll pada modal jika konten lebih panjang */
+}
+
+/* Konten Modal */
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    max-width: 600px;
+    max-height: 80vh; /* Menentukan batas tinggi modal */
+    overflow-y: auto; /* Scroll vertikal jika konten melebihi batas */
+    border-radius: 10px;
+}
+
+/* Tombol Close */
+.close {
+    color: #FF6200;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+footer ul li a:hover {
+    color: #FF6200;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .cta-btn {
+        padding: 10px 30px;
+        font-size: 1.1rem;
+    }
+
+    header .logo a {
+        font-size: 1.7rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        padding: 10px 25px;
+        font-size: 1rem;
+    }
+
+    header .logo a {
+        font-size: 1.5rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .cta-btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+
+    header .logo a {
+        font-size: 1.3rem;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-bottom: 8px;
+    }
+}
+
+
+/* Job Listings Section (Grid 3 Kolom Horizontal) */
+.job-listings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Membuat 3 kolom dalam satu baris */
+    gap: 20px; /* Memberikan jarak antar elemen */
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.job-item {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Pastikan gambar dalam setiap job item memiliki lebar yang tepat */
+.job-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.job-item h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.job-item p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.job-item .apply-btn {
+    background-color: #FF740F;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+}
+
+.job-item .apply-btn:hover {
+    background-color: #D4600D;
+    transform: scale(1.05);
+}
+
+/* Modal for Apply Now */
+#applyModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.modal-content h2 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+
+.modal-content #modalTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.modal-content #modalDescription {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Close Button */
+.close {
+    color: #FF6200;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .job-listings {
+        grid-template-columns: repeat(2, 1fr); /* 2 kolom pada layar lebih kecil */
+    }
+}
+
+@media (max-width: 768px) {
+    .job-listings {
+        grid-template-columns: 1fr; /* 1 kolom pada layar lebih kecil */
+    }
+}
+
+/* FAQ CSS */
+  .faq-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .faq-item {
+    background-color: #f9f9f9;
+    border-left: 5px solid #FF6200;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .faq-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+    padding: 20px;
+  }
+
+  .faq-item p {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  .faq-item a {
+    color: #FF6200;
+    text-decoration: none;
+  }
+
+  .faq-item a:hover {
+    text-decoration: underline;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+        <div class="logo">
+            <a href="https://m.media-amazon.com/images/I/71OdwxE5erL._AC_UF894,1000_QL80_.jpg" target="_blank" style="font-size: 1.8rem; color: white; text-decoration: none; font-weight: bold;">Cipta Coffee</a>
+        </div>
+            <ul>
+                <li><a href="#" id="aboutBtn">About Us</a></li>
+                <li><a href="#" id="servicesBtn">Our Menu</a></li>
+                <li><a href="#" id="contactBtn">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Cipta Coffee</h1>
+            <p>Meracik Kualitas dalam Setiap Tegukan, Menciptakan Cerita di Setiap Kebersamaan.</p>
+            <a href="#" id="applyBtn" class="cta-btn"><strong>SPECIAL MENU</strong></a>
+        </div>
+    </section>
+
+<!-- Job Listings Section (Grid 3 Kolom) -->
+<section class="job-listings">
+    <div class="job-item">
+        <img src="https://images.getrecipekit.com/20240905034653-iced-20caramel-20macchiato.png?aspect_ratio=16:9&quality=90&" alt="Cipta Coffee">
+        <h3>Caramel Macchiato</h3>
+        <p><strong>Caramel Macchiato</strong> adalah pilihan ideal bagi pecinta kopi yang menginginkan kombinasi sempurna antara rasa manis dan aroma kopi yang kuat.</p>
+        <br />
+        <a href="#" id="applyBtn1" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://spartanspecialtycafe.com/wp-content/uploads/2023/07/Ice-americano.png" alt="Americano">
+        <h3>Americano</h3>
+        <p>adalah pilihan tepat bagi pencinta kopi yang menyukai rasa autentik dan kesegaran murni.</p>
+        <a href="#" id="applyBtn2" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://w0.peakpx.com/wallpaper/805/735/HD-wallpaper-rosetta-latte-art-cappuccino-cup-of-coffee-drawing-on-coffee-coffee-concepts-rose-on-coffee-latte-art.jpg" alt="Caffe Latte">
+        <h3>Caffe Latte</h3>
+        <p>adalah minuman klasik yang menyajikan keseimbangan sempurna antara kekuatan espresso dan kelembutan susu.</p>
+        <a href="#" id="applyBtn3" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://cdn0-production-images-kly.akamaized.net/rF9J7T6wYPBakuzlp-ym1JveG6w=/0x342:5989x3718/1200x675/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3930827/original/066100900_1644554867-shutterstock_1984582070.jpg" alt="Mie Goreng">
+        <h3>Mie Goreng</h3>
+        <p>adalah hidangan klasik yang mudah disiapkan dan selalu menggugah selera.
+</p>
+        <a href="#" id="applyBtn4" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://cdn0-production-images-kly.akamaized.net/HusexjAqNowHofU5e1lb0jXNBEk=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/1359428/original/084420000_1475132767-Black-pepper-petai-fried-rice.jpg" alt="Nasi Goreng">
+        <h3>Nasi Goreng</h3>
+        <p>adalah hidangan favorit yang mudah dibuat dan cocok dinikmati kapan saja.
+</p>
+        <a href="#" id="applyBtn5" class="cta-btn">DETAILS</a>
+    </div>
+    <div class="job-item">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/034/904/621/small/savory-french-fries-cuisine-freshly-prepared-to-perfection-generative-ai-photo.jpg" alt="French Fries">
+        <h3>French Fries</h3>
+        <p>adalah camilan lezat dan renyah yang cocok dinikmati kapan saja.</p>
+        <a href="#" id="applyBtn6" class="cta-btn">DETAILS</a>
+    </div>
+    <!-- Add more job items as needed -->
+</section>
+
+
+<section>
+  <h2>Orang lain juga bertanya</h2>
+
+  <div itemscope itemtype="https://schema.org/FAQPage">
+    <div class="faq-container">
+      
+      <!-- FAQ Item 1 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa itu Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Cipta Coffee adalah kedai kopi yang menyajikan berbagai minuman kopi berkualitas tinggi, makanan ringan, dan pengalaman bersantai yang nyaman bagi pelanggan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 2 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Di mana lokasi Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Cipta Coffee memiliki beberapa cabang di berbagai kota. Anda dapat mengunjungi situs web kami atau media sosial untuk mengetahui lokasi terdekat.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 3 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa jam operasional Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Jam operasional kami umumnya mulai dari pukul 08.00 hingga 22.00, namun bisa berbeda di setiap cabang. Silakan cek cabang terdekat untuk informasi terbaru.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 4 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apa saja menu andalan di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Beberapa menu andalan kami meliputi Cipta Signature Coffee, Caramel Macchiato, dan Avocado Coffee.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 5 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee menyediakan pilihan minuman non-kopi?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan berbagai pilihan minuman non-kopi seperti teh, cokelat panas, dan minuman buah segar.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 6 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada pilihan makanan di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami menawarkan berbagai makanan ringan seperti croissant, sandwich, dan cake untuk menemani minuman Anda.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 7 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee menyediakan layanan take away?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan layanan take away untuk semua menu di kedai kami.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 8 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia layanan pemesanan online?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, Anda dapat memesan secara online melalui aplikasi pemesanan makanan atau langsung di website kami.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 9 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada promo khusus di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami sering mengadakan promo menarik. Pantau terus media sosial atau situs resmi kami untuk informasi terbaru.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 10 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee memiliki program loyalitas pelanggan?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki program loyalitas di mana Anda bisa mendapatkan poin setiap pembelian dan menukarnya dengan hadiah menarik.</p>
+  </div>
+</div>
+
+
+      <!-- FAQ Item 11 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia pilihan susu nabati di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan pilihan susu nabati seperti almond milk dan oat milk untuk menyesuaikan preferensi pelanggan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 12 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee ramah untuk bekerja atau belajar?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan lingkungan yang nyaman dengan Wi-Fi gratis untuk pelanggan yang ingin bekerja atau belajar.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 13 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee menerima reservasi tempat?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami menerima reservasi untuk acara khusus. Hubungi cabang terdekat untuk informasi lebih lanjut.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 14 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee memiliki menu musiman?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menghadirkan menu musiman sesuai dengan tren dan bahan terbaik di setiap musim.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 15 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah bahan baku kopi diambil secara lokal?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Sebagian besar kopi kami berasal dari petani lokal untuk mendukung produk dalam negeri dengan kualitas terbaik.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 16 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee menyediakan minuman dingin dan panas?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki pilihan minuman dingin dan panas di hampir semua menu kami.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 17 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee menjual biji kopi?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menjual biji kopi pilihan yang bisa Anda bawa pulang dan seduh sendiri di rumah.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 18 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada pilihan menu vegan di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan beberapa menu vegan termasuk minuman dengan susu nabati dan makanan tanpa produk hewani.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 19 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee menawarkan gift card?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan gift card yang bisa Anda berikan sebagai hadiah kepada orang terdekat.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 20 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara memberikan feedback kepada Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Anda dapat memberikan feedback melalui formulir di situs web kami atau langsung melalui media sosial.</p>
+  </div>
+</div>
+
+      <!-- FAQ Item 21 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada layanan catering dari Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan layanan catering untuk acara khusus. Hubungi kami untuk informasi lebih lanjut.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 22 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia pilihan kopi decaf di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan pilihan kopi tanpa kafein (decaf) untuk pelanggan yang menginginkannya.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 23 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee ramah bagi anak-anak?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan lingkungan yang ramah anak dan memiliki beberapa pilihan minuman yang cocok untuk mereka.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 24 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee menerima pembayaran digital?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menerima berbagai metode pembayaran digital termasuk e-wallet dan kartu kredit.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 25 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada fasilitas parkir di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Sebagian besar cabang kami memiliki fasilitas parkir untuk kenyamanan pelanggan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 26 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia ruangan privat di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Beberapa cabang kami memiliki ruangan privat untuk pertemuan atau acara khusus. Silakan hubungi cabang terdekat.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 27 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara bergabung menjadi mitra atau franchise Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Silakan kunjungi halaman kemitraan di situs web kami untuk informasi lebih lanjut tentang peluang menjadi mitra.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 28 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee berpartisipasi dalam kegiatan sosial?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami aktif dalam berbagai kegiatan sosial untuk mendukung komunitas dan keberlanjutan lingkungan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 29 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara mengetahui menu terbaru di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ikuti media sosial kami atau kunjungi situs web resmi untuk pembaruan menu terbaru.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 30 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia paket bundling di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami menyediakan paket bundling untuk minuman dan makanan dengan harga spesial.</p>
+  </div>
+</div>
+
+
+      <!-- FAQ Item 31 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada menu khusus untuk pelanggan dengan alergi?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami menyediakan informasi bahan di setiap menu, dan staf kami siap membantu untuk kebutuhan khusus Anda.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 32 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee mendukung pembayaran nontunai?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami mendukung pembayaran nontunai untuk kenyamanan dan kemudahan pelanggan.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 33 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada event khusus di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kami sering mengadakan event spesial seperti coffee workshop dan live music. Pantau media sosial untuk info terbaru.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 34 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara melamar kerja di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Kunjungi situs karier kami di website resmi untuk melihat lowongan kerja dan cara melamar.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 35 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia layanan delivery di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami bekerja sama dengan platform pengiriman makanan untuk melayani pesanan Anda.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 36 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee menyediakan merchandise?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki berbagai merchandise eksklusif seperti tumbler, mug, dan kaos.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 37 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah ada diskon khusus untuk pelajar atau mahasiswa?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Beberapa cabang kami menyediakan diskon khusus untuk pelajar dan mahasiswa dengan menunjukkan kartu identitas.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 38 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah Cipta Coffee menyediakan pilihan kopi single origin?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, kami memiliki koleksi kopi single origin dari berbagai daerah dengan rasa autentik.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 39 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Bagaimana cara berpartisipasi dalam loyalty program?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Anda bisa mendaftar di kasir atau melalui aplikasi kami untuk mulai mengumpulkan poin dari setiap transaksi.</p>
+  </div>
+</div>
+
+<!-- FAQ Item 40 -->
+<div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+  <h3 itemprop="name">Apakah tersedia layanan konsultasi kopi di Cipta Coffee?</h3>
+  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+    <p itemprop="text">Ya, barista kami siap memberikan konsultasi tentang pilihan kopi terbaik sesuai selera Anda.</p>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="#" id="aboutFooterBtn">About Us</a></li>
+            <li><a href="#" id="privacyFooterBtn">Privacy Policy</a></li>
+            <li><a href="#" id="termsFooterBtn">Terms & Conditions</a></li>
+        </ul>
+        <p>&copy; 2025 Cipta Coffee</p>
+</footer>
+
+<!-- Modal for About Us -->
+<div id="modal-about" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>About Us</h2>
+<p>
+
+<h2>**About Us - Cipta Coffee**</h2>
+<br />
+<p><strong>About Us - Cipta Coffee</strong></p>
+<br />
+<p><strong>Tentang Cipta Coffee</strong></p>
+
+<p>Cipta Coffee didirikan dengan semangat untuk menghadirkan pengalaman ngopi terbaik bagi para pecinta kopi. Kami percaya bahwa setiap cangkir kopi memiliki cerita, dan kami berkomitmen untuk menyajikan kopi berkualitas tinggi dengan cita rasa autentik. <br><br> Dengan bahan baku pilihan dari petani lokal, kami menjaga kualitas setiap biji kopi yang disajikan. Proses pemilihan dan pengolahan kopi dilakukan secara teliti untuk memastikan rasa yang konsisten dan memuaskan di setiap tegukan. </p>
+
+<p><strong>Visi Kami</strong><br> Menjadi kedai kopi pilihan yang memberikan pengalaman tak terlupakan melalui rasa kopi yang istimewa dan suasana yang hangat.</p>
+
+<p><strong>Misi Kami</strong><br> - Menyajikan kopi berkualitas tinggi dari biji kopi pilihan. <br> - Mendukung petani lokal melalui kemitraan yang berkelanjutan. <br> - Memberikan pelayanan terbaik dan menciptakan lingkungan yang nyaman bagi setiap pelanggan. </p>
+
+<p><strong>Mengapa Memilih Cipta Coffee?</strong><br> Kami tidak hanya menyajikan kopi, tetapi juga menciptakan pengalaman. Dari aroma kopi yang menggoda hingga suasana kedai yang ramah, setiap kunjungan Anda adalah momen yang berharga bagi kami.</p>
+</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Modal for Our Services -->
+<div id="modal-services" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>Our Services</h2>
+<p>
+
+<h2>**Our Services - Cipta Coffee**</h2>
+<br />
+<p>Di <strong>Cipta Coffee</strong>, kami menghadirkan pengalaman kopi berkualitas tinggi dengan cita rasa autentik dan pelayanan terbaik. Dari sajian kopi spesial hingga ruang nyaman untuk bersantai atau bekerja, kami siap melayani kebutuhan Anda.</p>
+<br />
+
+<h3>☕ Specialty Coffee & Signature Drinks</h3>
+<p>Nikmati berbagai pilihan kopi spesial yang diolah dari biji kopi berkualitas. Dari espresso klasik hingga kreasi minuman unik, kami menghadirkan rasa yang memanjakan lidah Anda.</p>
+<br />
+
+<h3>🍰 Artisanal Snacks & Desserts</h3>
+<p>Kami menawarkan aneka camilan dan dessert istimewa yang dibuat dengan bahan premium. Cocok dinikmati bersama secangkir kopi favorit Anda.</p>
+<br />
+
+<h3>🎉 Private Gatherings & Corporate Events</h3>
+<p>Cipta Coffee menyediakan ruang eksklusif untuk berbagai acara, seperti rapat bisnis, perayaan pribadi, atau event komunitas. Dengan suasana hangat dan fasilitas lengkap, acara Anda akan terasa istimewa.</p>
+<br />
+
+<h3>🚚 Delivery & Takeaway Service</h3>
+<p>Ingin menikmati kopi favorit di rumah atau kantor? Kami menyediakan layanan antar dan takeaway untuk memenuhi kebutuhan Anda di mana saja.</p>
+<br />
+
+<h3>📖 Cozy Workspace & Study Hub</h3>
+<p>Ruang kami dirancang nyaman untuk Anda yang ingin bekerja atau belajar. Dilengkapi dengan akses Wi-Fi cepat dan suasana tenang untuk meningkatkan produktivitas.</p>
+<br />
+
+<p>Kami melayani Anda setiap hari dari <strong>09.00 hingga 22.00</strong>. Untuk informasi lebih lanjut atau reservasi, hubungi kami di 08117750917 atau ikuti kami di <strong><a href="https://instagram.com/ciptacoffee">Instagram: @ciptacoffee</a></strong>.</p>
+<br />
+
+<p><strong>Cipta Coffee - Crafting Moments, One Cup at a Time.</strong></p>
+</p>
+    </div>
+</div>
+
+
+<!-- Modal for Contact -->
+    <div id="modal-contact" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+<h2>Contact Us</h2>
+<p><strong>Cipta Coffee</strong><br>
+Komplek Ruko Cipta Puri blok EE no.8, Tiban Baru, Kec. Sekupang, Kota Batam, Kepulauan Riau 29425<br>
+<br>
+<strong>Minggu</strong><br>
+15.00–01.00<br>
+&#xE645;<br>
+<strong>Senin</strong><br>
+15.00–00.00<br>
+&#xE645;<br>
+<strong>Selasa</strong><br>
+15.00–00.00<br>
+&#xE645;<br>
+<strong>Rabu</strong><br>
+15.00–00.00<br>
+&#xE645;<br>
+<strong>Kamis</strong><br>
+15.00–00.00<br>
+&#xE645;<br>
+<strong>Jumat</strong><br>
+15.00–00.00<br>
+&#xE645;<br>
+<strong>Sabtu</strong><br>
+15.00–01.00<br>
+<br>
+<strong>Telepon:</strong> 08117750917</p>
+        </div>
+    </div>
+
+
+
+
+<!-- Modal for Footer About Us -->
+    <div id="modal-footer-about" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+<h2>About Us</h2>
+<p><strong>Tentang Kami - Cipta Coffee</strong></p>
+
+<p>Cipta Coffee berdedikasi untuk menghadirkan pengalaman kopi terbaik dengan cita rasa autentik dan bahan berkualitas tinggi. <br>Kami percaya bahwa secangkir kopi yang baik dapat membangkitkan semangat dan menghadirkan momen berharga di setiap tegukan.</p>
+
+<p><strong>Visi Kami</strong><br>
+Menjadi pilihan utama bagi pecinta kopi yang mencari kualitas premium, inovasi rasa, dan layanan terbaik di setiap kesempatan.</p>
+
+<p><strong>Misi Kami</strong><br>
+1. Menyajikan kopi berkualitas dari biji kopi pilihan yang diolah dengan penuh perhatian. <br>
+2. Menciptakan suasana nyaman dan ramah bagi semua pelanggan. <br>
+3. Berinovasi dalam menciptakan berbagai varian kopi yang unik dan memuaskan selera.</p>
+
+<p><strong>Kenapa Memilih Cipta Coffee?</strong><br>
+Kami mengutamakan kepuasan pelanggan dengan menghadirkan kopi yang diseduh secara profesional dan suasana yang hangat. <br>Dengan komitmen terhadap kualitas, kami siap menjadi teman terbaik dalam setiap momen berharga Anda.</p>
+    </div>
+</div>
+
+<!-- Modal for Privacy Policy -->
+<div id="modal-footer-privacy" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>Privacy Policy</h2>
+<p><strong>Kebijakan Privasi - Cipta Coffee</strong></p>
+
+<p>Di Cipta Coffee, kami menghormati dan melindungi privasi pelanggan kami. Kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda.</p>
+
+<p><strong>1. Informasi yang Kami Kumpulkan</strong><br>
+Kami dapat mengumpulkan informasi pribadi seperti nama, alamat email, nomor telepon, dan informasi lain yang Anda berikan saat berinteraksi dengan layanan kami, termasuk saat melakukan pemesanan atau berlangganan buletin kami.</p>
+
+<p><strong>2. Penggunaan Informasi</strong><br>
+Informasi yang kami kumpulkan digunakan untuk:<br>
+- Memproses dan mengonfirmasi pesanan Anda.<br>
+- Memberikan informasi tentang promosi dan penawaran khusus.<br>
+- Meningkatkan layanan dan pengalaman pelanggan di Cipta Coffee.<br>
+- Menanggapi pertanyaan dan kebutuhan pelanggan.</p>
+
+<p><strong>3. Perlindungan Informasi</strong><br>
+Kami menjaga keamanan informasi pribadi Anda dengan menerapkan langkah-langkah teknis dan organisasi yang sesuai untuk melindungi data dari akses, penggunaan, atau pengungkapan yang tidak sah.</p>
+
+<p><strong>4. Berbagi Informasi</strong><br>
+Kami tidak akan membagikan informasi pribadi Anda kepada pihak ketiga tanpa persetujuan Anda, kecuali diwajibkan oleh hukum atau untuk memproses layanan yang Anda minta.</p>
+
+<p><strong>5. Hak Anda</strong><br>
+Anda memiliki hak untuk mengakses, memperbarui, atau menghapus informasi pribadi Anda yang kami simpan. Untuk melakukannya, silakan hubungi kami melalui saluran komunikasi yang tersedia di situs kami.</p>
+
+<p><strong>6. Perubahan Kebijakan Privasi</strong><br>
+Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Setiap perubahan akan diberitahukan melalui situs web kami.</p>
+
+<p><strong>Hubungi Kami</strong><br>
+Jika Anda memiliki pertanyaan atau kekhawatiran tentang kebijakan privasi ini, silakan hubungi kami melalui email atau layanan pelanggan Cipta Coffee.</p>
+    </div>
+</div>
+
+<!-- Modal for Terms and Conditions -->
+<div id="modal-footer-terms" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+<h2>Terms and Conditions</h2>
+<p><strong>Syarat dan Ketentuan - Cipta Coffee</strong></p>
+
+<p>Selamat datang di Cipta Coffee. Dengan mengakses dan menggunakan layanan kami, Anda setuju untuk mematuhi syarat dan ketentuan berikut ini.</p>
+
+<p><strong>1. Umum</strong><br>
+Syarat dan ketentuan ini mengatur penggunaan situs web dan layanan kami. Kami berhak mengubah ketentuan ini kapan saja tanpa pemberitahuan sebelumnya. Dengan terus menggunakan layanan kami, Anda dianggap menyetujui perubahan tersebut.</p>
+
+<p><strong>2. Pemesanan dan Pembayaran</strong><br>
+- Semua pesanan tunduk pada ketersediaan produk.<br>
+- Harga yang tertera sudah termasuk pajak yang berlaku, kecuali dinyatakan lain.<br>
+- Pembayaran harus dilakukan secara penuh sebelum pesanan diproses.<br>
+- Kami berhak menolak atau membatalkan pesanan karena alasan tertentu, termasuk ketidaktersediaan stok atau kesalahan harga.</p>
+
+<p><strong>3. Pengiriman dan Pengambilan</strong><br>
+- Waktu pengiriman yang diberikan adalah perkiraan dan dapat berubah tergantung pada kondisi tertentu.<br>
+- Pelanggan bertanggung jawab untuk memberikan informasi pengiriman yang akurat.<br>
+- Jika terjadi keterlambatan atau masalah dalam pengiriman, kami akan memberitahu Anda secepat mungkin.</p>
+
+<p><strong>4. Kebijakan Pengembalian</strong><br>
+- Kami menerima pengembalian atau penukaran hanya untuk produk yang rusak atau tidak sesuai pesanan.<br>
+- Permintaan pengembalian harus dilakukan dalam waktu 3 hari setelah penerimaan produk.<br>
+- Produk harus dalam kondisi asli dan belum digunakan untuk memenuhi syarat pengembalian.</p>
+
+<p><strong>5. Hak Kekayaan Intelektual</strong><br>
+- Semua konten di situs web ini, termasuk logo, gambar, dan teks, adalah milik Cipta Coffee dan dilindungi oleh undang-undang hak cipta.<br>
+- Dilarang menggunakan, menyalin, atau mendistribusikan konten tanpa izin tertulis dari kami.</p>
+
+<p><strong>6. Batasan Tanggung Jawab</strong><br>
+- Kami tidak bertanggung jawab atas kerugian langsung atau tidak langsung yang timbul akibat penggunaan layanan kami.<br>
+- Kami tidak menjamin bahwa situs web akan selalu tersedia atau bebas dari kesalahan teknis.</p>
+
+<p><strong>7. Hukum yang Berlaku</strong><br>
+Syarat dan ketentuan ini diatur oleh hukum yang berlaku di Indonesia. Segala sengketa yang timbul akan diselesaikan secara musyawarah atau melalui jalur hukum yang berlaku.</p>
+
+<p><strong>Hubungi Kami</strong><br>
+Jika Anda memiliki pertanyaan mengenai syarat dan ketentuan ini, silakan hubungi kami melalui email atau layanan pelanggan Cipta Coffee.</p>
+    </div>
+</div>
+
+<!-- Modal Signature Ice Coffee -->
+<div id="modal-apply" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Signature Ice Coffee</h2>
+        <br>
+        <h3>Manfaat Signature Ice Coffee</h3>
+        <ul>
+            <li><span itemprop="description">Penyegar di Hari Panas: Nikmati kesegaran kopi dingin yang memberikan sensasi menyegarkan.</span></li>
+            <li><span itemprop="description">Energi Instan: Kafein dalam Signature Ice Coffee membantu meningkatkan fokus dan energi.</span></li>
+            <li><span itemprop="description">Rasa Unik: Perpaduan sempurna antara espresso berkualitas tinggi dan sentuhan manis yang lembut.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 shot espresso dari biji kopi pilihan</li>
+            <li>150 ml susu segar atau krimer</li>
+            <li>20 ml sirup gula aren atau vanila (opsional)</li>
+            <li>Es batu secukupnya</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Signature Ice Coffee</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Siapkan gelas saji yang diisi es batu hingga setengah penuh.</li>
+            <li>Ekstrak 1 shot espresso menggunakan biji kopi pilihan.</li>
+            <li>Tambahkan susu segar atau krimer ke dalam gelas.</li>
+            <li>Tuangkan espresso panas di atas es dan susu secara perlahan.</li>
+            <li>Tambahkan sirup sesuai selera untuk rasa yang lebih manis.</li>
+            <li>Aduk perlahan dan sajikan segera untuk menikmati kesegaran Signature Ice Coffee.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan espresso yang baru diseduh untuk menjaga kekuatan rasa.</li>
+            <li>Eksperimen dengan sirup favorit Anda untuk menciptakan rasa unik.</li>
+            <li>Tambahkan whipped cream di atasnya untuk tampilan yang lebih menarik.</li>
+        </ol>
+        <br>
+        <p><strong>Signature Ice Coffee</strong> adalah pilihan sempurna bagi pencinta kopi dingin yang menginginkan keseimbangan rasa kuat dan kesegaran. Selamat mencoba!</p>
+        <br>
+        <img src="https://c1.wallpaperflare.com/preview/341/245/109/still-items-things-drink.jpg" alt="Signature Ice Coffee" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Caramel Macchiato -->
+<div id="modal-apply1" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Caramel Macchiato</h2>
+        <br>
+        <h3>Manfaat Caramel Macchiato</h3>
+        <ul>
+            <li><span itemprop="description">Meningkatkan Fokus: Kombinasi espresso dan karamel memberikan energi dan membantu meningkatkan fokus.</span></li>
+            <li><span itemprop="description">Kenikmatan Rasa: Perpaduan rasa pahit espresso dan manisnya karamel menciptakan cita rasa yang seimbang dan memanjakan lidah.</span></li>
+            <li><span itemprop="description">Pilihan Elegan: Minuman ini cocok untuk menemani waktu santai atau sebagai teman bekerja.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 shot espresso dari biji kopi berkualitas</li>
+            <li>150 ml susu segar</li>
+            <li>20 ml sirup karamel</li>
+            <li>Foam susu (busa susu) secukupnya</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Caramel Macchiato</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Siapkan gelas saji favorit Anda.</li>
+            <li>Tuangkan sirup karamel di dasar gelas.</li>
+            <li>Panaskan dan froth susu hingga berbusa, lalu tuangkan perlahan ke dalam gelas.</li>
+            <li>Ekstrak 1 shot espresso, kemudian tuangkan di atas susu secara perlahan.</li>
+            <li>Tambahkan foam susu di atasnya untuk sentuhan akhir.</li>
+            <li>Sajikan segera dan nikmati Caramel Macchiato yang lembut dan lezat.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan sirup karamel buatan sendiri untuk rasa yang lebih autentik.</li>
+            <li>Tambahkan es batu jika ingin menikmati versi iced Caramel Macchiato.</li>
+            <li>Sesuaikan jumlah sirup karamel sesuai selera manis Anda.</li>
+        </ol>
+        <br>
+        <p><strong>Caramel Macchiato</strong> adalah pilihan ideal bagi pecinta kopi yang menginginkan kombinasi sempurna antara rasa manis dan aroma kopi yang kuat. Selamat mencoba!</p>
+        <br>
+        <img src="https://images.getrecipekit.com/20240905034653-iced-20caramel-20macchiato.png?aspect_ratio=16:9&quality=90&" alt="Caramel Macchiato" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Americano -->
+<div id="modal-apply2" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Americano</h2>
+        <br>
+        <h3>Manfaat Americano</h3>
+        <ul>
+            <li><span itemprop="description">Rendah Kalori: Americano tanpa tambahan gula atau susu memiliki kalori yang rendah, cocok untuk gaya hidup sehat.</span></li>
+            <li><span itemprop="description">Meningkatkan Konsentrasi: Kafein dalam Americano membantu meningkatkan fokus dan kewaspadaan.</span></li>
+            <li><span itemprop="description">Kesegaran Murni: Menikmati rasa kopi murni yang kaya dan autentik tanpa campuran lainnya.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 shot espresso dari biji kopi berkualitas</li>
+            <li>150 ml air panas</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Americano</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Ekstrak 1 shot espresso menggunakan biji kopi pilihan.</li>
+            <li>Siapkan cangkir saji dan tuangkan air panas sebanyak 150 ml.</li>
+            <li>Tambahkan espresso ke dalam air panas secara perlahan.</li>
+            <li>Aduk perlahan jika diinginkan, dan sajikan segera untuk menikmati cita rasa kopi murni.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan biji kopi dark roast untuk rasa yang lebih kuat dan bold.</li>
+            <li>Sesuaikan perbandingan air dan espresso sesuai selera kekuatan rasa kopi Anda.</li>
+            <li>Untuk Americano dingin, tambahkan es batu ke dalam gelas sebelum menuangkan espresso.</li>
+        </ol>
+        <br>
+        <p><strong>Americano</strong> adalah pilihan tepat bagi pencinta kopi yang menyukai rasa autentik dan kesegaran murni. Selamat mencoba!</p>
+        <br>
+        <img src="https://spartanspecialtycafe.com/wp-content/uploads/2023/07/Ice-americano.png" alt="Americano" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Caffe Latte -->
+<div id="modal-apply3" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Caffe Latte</h2>
+        <br>
+        <h3>Manfaat Caffe Latte</h3>
+        <ul>
+            <li><span itemprop="description">Sumber Energi: Kombinasi espresso dan susu memberikan dorongan energi yang lembut dan tahan lama.</span></li>
+            <li><span itemprop="description">Menyeimbangkan Rasa: Perpaduan espresso yang kuat dengan susu yang lembut menciptakan rasa seimbang dan creamy.</span></li>
+            <li><span itemprop="description">Pilihan Nyaman: Cocok sebagai minuman santai di pagi atau sore hari.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 shot espresso dari biji kopi berkualitas</li>
+            <li>200 ml susu segar yang telah dikukus</li>
+            <li>Foam susu tipis sebagai topping (opsional)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Caffe Latte</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Ekstrak 1 shot espresso menggunakan biji kopi pilihan.</li>
+            <li>Panaskan dan froth susu hingga menghasilkan tekstur lembut dan creamy.</li>
+            <li>Tuangkan espresso ke dalam cangkir saji.</li>
+            <li>Tambahkan susu kukus secara perlahan hingga penuh.</li>
+            <li>Tambahkan sedikit foam susu di atasnya jika diinginkan.</li>
+            <li>Sajikan segera dan nikmati kelezatan Caffe Latte.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan susu segar berkualitas tinggi untuk rasa yang lebih creamy dan lembut.</li>
+            <li>Sesuaikan perbandingan espresso dan susu sesuai preferensi kekuatan rasa kopi Anda.</li>
+            <li>Tambahkan sirup rasa seperti vanila atau karamel untuk variasi rasa yang lebih manis.</li>
+        </ol>
+        <br>
+        <p><strong>Caffe Latte</strong> adalah minuman klasik yang menyajikan keseimbangan sempurna antara kekuatan espresso dan kelembutan susu. Selamat mencoba!</p>
+        <br>
+        <img src="https://w0.peakpx.com/wallpaper/805/735/HD-wallpaper-rosetta-latte-art-cappuccino-cup-of-coffee-drawing-on-coffee-coffee-concepts-rose-on-coffee-latte-art.jpg" alt="Caffe Latte" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+<!-- Modal Mie Goreng -->
+<div id="modal-apply4" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Mie Goreng</h2>
+        <br>
+        <h3>Manfaat Mie Goreng</h3>
+        <ul>
+            <li><span itemprop="description">Sumber Energi: Karbohidrat dari mie memberikan energi yang cepat dan mengenyangkan.</span></li>
+            <li><span itemprop="description">Mudah Disesuaikan: Bisa dikombinasikan dengan berbagai sayuran, daging, atau telur sesuai selera.</span></li>
+            <li><span itemprop="description">Praktis dan Lezat: Cepat dimasak dan menawarkan cita rasa gurih yang nikmat.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>150 gram mie telur atau mie instan</li>
+            <li>2 sdm kecap manis</li>
+            <li>1 sdm saus tiram (opsional)</li>
+            <li>2 siung bawang putih, cincang halus</li>
+            <li>1 butir telur (opsional)</li>
+            <li>Sayuran seperti sawi atau kol sesuai selera</li>
+            <li>2 sdm minyak goreng</li>
+            <li>Garam dan merica secukupnya</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Mie Goreng</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Rebus mie hingga matang, tiriskan, dan sisihkan.</li>
+            <li>Panaskan minyak di wajan, tumis bawang putih hingga harum.</li>
+            <li>Masukkan telur, orak-arik hingga matang (jika menggunakan).</li>
+            <li>Tambahkan sayuran, aduk hingga layu.</li>
+            <li>Masukkan mie yang telah direbus, aduk rata.</li>
+            <li>Tuangkan kecap manis, saus tiram, garam, dan merica. Aduk hingga bumbu meresap.</li>
+            <li>Angkat dan sajikan hangat.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan mie yang tidak mudah lembek untuk tekstur yang lebih kenyal.</li>
+            <li>Tambahkan irisan cabai jika ingin rasa pedas yang menggugah selera.</li>
+            <li>Hiasi dengan bawang goreng dan irisan mentimun untuk penyajian yang menarik.</li>
+        </ol>
+        <br>
+        <p><strong>Mie Goreng</strong> adalah hidangan klasik yang mudah disiapkan dan selalu menggugah selera. Cocok untuk segala suasana. Selamat mencoba!</p>
+        <br>
+        <img src="https://cdn0-production-images-kly.akamaized.net/rF9J7T6wYPBakuzlp-ym1JveG6w=/0x342:5989x3718/1200x675/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3930827/original/066100900_1644554867-shutterstock_1984582070.jpg" alt="Mie Goreng" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal Nasi Goreng -->
+<div id="modal-apply5" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">Nasi Goreng</h2>
+        <br>
+        <h3>Manfaat Nasi Goreng</h3>
+        <ul>
+            <li><span itemprop="description">Sumber Energi: Karbohidrat dari nasi memberikan energi yang mengenyangkan.</span></li>
+            <li><span itemprop="description">Cepat dan Praktis: Mudah disiapkan sebagai hidangan utama yang lezat.</span></li>
+            <li><span itemprop="description">Fleksibel: Bisa disesuaikan dengan berbagai tambahan seperti ayam, telur, atau sayuran.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>1 piring nasi putih (lebih baik nasi dingin)</li>
+            <li>2 sdm kecap manis</li>
+            <li>1 sdm saus tiram (opsional)</li>
+            <li>2 siung bawang putih, cincang halus</li>
+            <li>1 butir telur</li>
+            <li>1 sdm minyak goreng</li>
+            <li>Garam dan merica secukupnya</li>
+            <li>Tambahan: ayam suwir, udang, atau sosis (opsional)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat Nasi Goreng</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Panaskan minyak di wajan, tumis bawang putih hingga harum.</li>
+            <li>Pecahkan telur, orak-arik hingga matang.</li>
+            <li>Masukkan nasi putih, aduk rata dengan telur dan bawang.</li>
+            <li>Tambahkan kecap manis, saus tiram, garam, dan merica. Aduk hingga bumbu meresap.</li>
+            <li>Tambahkan bahan tambahan seperti ayam atau udang jika diinginkan.</li>
+            <li>Masak selama 2-3 menit, angkat dan sajikan hangat.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan nasi yang telah didinginkan agar hasil nasi goreng tidak lembek.</li>
+            <li>Sesuaikan tingkat kemanisan dengan menambah atau mengurangi kecap manis.</li>
+            <li>Tambahkan irisan mentimun dan kerupuk untuk pelengkap hidangan.</li>
+        </ol>
+        <br>
+        <p><strong>Nasi Goreng</strong> adalah hidangan favorit yang mudah dibuat dan cocok dinikmati kapan saja. Selamat mencoba!</p>
+        <br>
+        <img src="https://cdn0-production-images-kly.akamaized.net/HusexjAqNowHofU5e1lb0jXNBEk=/673x379/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/1359428/original/084420000_1475132767-Black-pepper-petai-fried-rice.jpg" alt="Nasi Goreng" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+<!-- Modal French Fries -->
+<div id="modal-apply6" class="modal" itemscope itemtype="https://schema.org/Recipe">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 itemprop="name">French Fries</h2>
+        <br>
+        <h3>Manfaat French Fries</h3>
+        <ul>
+            <li><span itemprop="description">Sumber Karbohidrat: Kentang adalah sumber karbohidrat yang memberikan energi bagi tubuh.</span></li>
+            <li><span itemprop="description">Camilan Praktis: Mudah disajikan dan cocok sebagai pendamping hidangan utama.</span></li>
+            <li><span itemprop="description">Serbaguna: Bisa dikombinasikan dengan berbagai saus atau bumbu tambahan.</span></li>
+        </ul>
+        <br>
+        <h3>Bahan-bahan yang Umum Digunakan</h3>
+        <ul itemprop="ingredients">
+            <li>3 buah kentang besar (kupas dan potong memanjang)</li>
+            <li>Air dingin (untuk merendam kentang)</li>
+            <li>Minyak goreng (secukupnya untuk menggoreng)</li>
+            <li>1 sdt garam (atau sesuai selera)</li>
+            <li>Bumbu tambahan: Bubuk paprika, bubuk bawang, atau keju parut (optional)</li>
+        </ul>
+        <br />
+        <h3>Cara Membuat French Fries</h3>
+        <ol itemprop="recipeInstructions">
+            <li>Rendam potongan kentang dalam air dingin selama 30 menit untuk mengurangi kadar pati.</li>
+            <li>Tiriskan kentang dan keringkan menggunakan tisu dapur.</li>
+            <li>Panaskan minyak di wajan hingga suhu sekitar 170°C.</li>
+            <li>Goreng kentang hingga setengah matang (sekitar 4-5 menit), lalu angkat dan tiriskan.</li>
+            <li>Diamkan kentang selama beberapa menit, kemudian goreng kembali hingga berwarna keemasan dan renyah.</li>
+            <li>Angkat, tiriskan, dan taburkan garam atau bumbu tambahan sesuai selera.</li>
+            <li>Sajikan selagi hangat dengan saus favorit Anda.</li>
+        </ol>
+        <br />
+        <h3>Tips Tambahan</h3>
+        <ol>
+            <li>Gunakan kentang jenis russet atau kentang dengan kadar pati tinggi untuk hasil lebih renyah.</li>
+            <li>Goreng dua kali agar French Fries lebih garing di luar dan lembut di dalam.</li>
+            <li>Tambahkan bumbu setelah menggoreng agar rasa lebih merata dan tidak mengurangi kerenyahan.</li>
+        </ol>
+        <br>
+        <p><strong>French Fries</strong> adalah camilan lezat dan renyah yang cocok dinikmati kapan saja. Sajikan dengan saus favorit Anda untuk pengalaman yang lebih nikmat. Selamat mencoba!</p>
+        <br>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/034/904/621/small/savory-french-fries-cuisine-freshly-prepared-to-perfection-generative-ai-photo.jpg" alt="French Fries" width="500" itemprop="image">
+        <br />
+    </div>
+</div>
+
+
+
+
+<script>
+        // Modal functionality for Header
+        function showModal(modalId) {
+            const modal = document.getElementById(modalId);
+            const closeModal = modal.querySelector('.close');
+            modal.style.display = 'block';
+
+            closeModal.addEventListener('click', () => {
+                modal.style.display = 'none';
+            });
+
+            window.onclick = function(event) {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            };
+        }
+
+        // Apply Modals
+       document.getElementById('applyBtn').addEventListener('click', () => showModal('modal-apply'));
+
+
+       // Apply Modals
+       document.getElementById('applyBtn1').addEventListener('click', () => showModal('modal-apply1'));
+       document.getElementById('applyBtn2').addEventListener('click', () => showModal('modal-apply2'));
+       document.getElementById('applyBtn3').addEventListener('click', () => showModal('modal-apply3'));
+       document.getElementById('applyBtn4').addEventListener('click', () => showModal('modal-apply4'));
+       document.getElementById('applyBtn5').addEventListener('click', () => showModal('modal-apply5'));
+       document.getElementById('applyBtn6').addEventListener('click', () => showModal('modal-apply6'));
+
+        // Header Modals
+        document.getElementById('aboutBtn').addEventListener('click', () => showModal('modal-about'));
+        document.getElementById('servicesBtn').addEventListener('click', () => showModal('modal-services'));
+        document.getElementById('contactBtn').addEventListener('click', () => showModal('modal-contact'));
+
+        // Footer Modals
+        document.getElementById('aboutFooterBtn').addEventListener('click', () => showModal('modal-footer-about'));
+        document.getElementById('privacyFooterBtn').addEventListener('click', () => showModal('modal-footer-privacy'));
+        document.getElementById('termsFooterBtn').addEventListener('click', () => showModal('modal-footer-terms'));
+    </script>
+
+
+
+</body>
+</html>
